@@ -2,7 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A simple encryption library that uses strings along with best practices to encrypt and decrypt your data.</Description>
+    <PackageProjectUrl>https://github.com/logicalmind/Logicalmind.Cryption</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/logicalmind/Logicalmind.Cryption</RepositoryUrl>
+    <PackageTags>Security Encryption Decryption</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
