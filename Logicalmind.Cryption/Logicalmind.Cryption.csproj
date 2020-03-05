@@ -8,6 +8,7 @@
     <RepositoryUrl>https://github.com/logicalmind/Logicalmind.Cryption</RepositoryUrl>
     <PackageTags>Security Encryption Decryption</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
 </Project>
