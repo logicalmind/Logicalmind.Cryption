@@ -11,7 +11,7 @@ namespace Logicalmind.Cryption.Test
             var key = "MyKey";
             var unencrypted = "Some Test String";
 
-            var c = new Cryption(key);
+            var c = new Cryptor(key);
 
             var encrypted = c.Encrypt(unencrypted);
 

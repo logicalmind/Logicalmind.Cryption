@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Logicalmind.Cryption
 {
-    public class Cryption : ICryption
+    public class Cryptor : ICryptor
     {
         private readonly byte[] key;
         private readonly Encoding encoding;
 
-        public Cryption(string keyPhrase)
+        public Cryptor(string keyPhrase)
         {
             encoding = Encoding.UTF8;
             key = ComputeSha256Hash(keyPhrase);
