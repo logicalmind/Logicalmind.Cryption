@@ -2,7 +2,7 @@
 This library wraps the AES encryption library to provide a simple interface. The interface uses strings for input and output. 
 
 # Instantiation
-When you instantiate the Cryption class you provide your passphrase. This passphrase is hashed using SHA256. 
+When you instantiate the Cryptor class you provide your passphrase. This passphrase is hashed using SHA256. 
 
 # Encryption
 When you encrypt a string, a secure IV is generated. The hashed passphrase and IV are used to encrypt the string. The IV and encrypted string are returned encoded in Base64.
@@ -15,7 +15,7 @@ When you decrypt a string (that was encrypted using the method above), the Base6
 var key = "MyKey";
 var unencrypted = "Some Test String";
 
-var c = new Cryption(key);
+var c = new Cryptor(key);
 
 var encrypted = c.Encrypt(unencrypted);
 
